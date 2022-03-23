@@ -1,0 +1,12 @@
+*{
+ box-sizing: border-box;
+}
+
+.hero{
+    background-image: url('https://images.pexels.com/photos/4489749/pexels-photo-4489749.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=1000');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    transition: background .5s ease;
+    position: relative;
+}

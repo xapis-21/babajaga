@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="./static/css/style.css">
+    <title>Ohnesorg gebaudeyechnik</title>
+</head>
+<body class="bg-black w-screen">
+   <header class="flex justify-between items-center py-4 px-4">
+       <div class="logo">
+           <img src="https://waerme-wasser-wohnen.de/wp-content/uploads/2022/03/hDWKXzbil3Z4LuoBhir0z0grFCBchO7d0E8i91x0-6-1536x365.png" alt="" class="w-[200px]">
+       </div>
+       <div class="text-white md:flex hidden">
+           <a href="tel:08214392953" class="tel flex justify-center items-center mx-4 text-xs md:text-sm">
+               <div class="icon mx-2">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                        <path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z" />
+                    </svg>
+               </div>
+               <span>08214392953</span>
+            </a>
+           <a href="mailto:info@waerme-wasser-wohnen.de" class="mailto flex justify-center items-center mx-4 text-xs md:text-sm">
+               <div class="icon mx-2">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                        <path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z" />
+                        <path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z" />
+                    </svg>
+               </div>
+                <span>info@waerme-wasser-wohnen.de</span>
+            </a>
+       </div>
+       <div class="menu block md:hidden text-white h-14 w-14 grid place-items-center px-1 hover:bg-slate-100/30 cursor-pointer rounded-full duration-200">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-10 w-10" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16" />
+            </svg>
+       </div>
+   </header> 
+   <nav class="w-full bg-white hidden md:block">
+       <ul class="flex items-center w-full justify-between max-w-[1000px] mx-auto">
+           <li class=" h-14 w-fit px-4 grid place-items-center"><a href="#" class="text-black">Home</a></li>
+           <li class=" h-14 w-fit px-4 grid place-items-center"><a href="#" class="text-black">Leistugen</a></li>
+           <li class=" h-14 w-fit px-4 grid place-items-center"><a href="#"  class="text-black">Uber uns</a></li>
+           <li class=" h-14 w-fit px-4 grid place-items-center"><a href="#" class="text-black">Leistugen guwerbekunden</a></li>
+           <li class=" h-14 w-fit px-4 grid place-items-center"><a href="#" class="text-black">iher planer</a></li>
+       </ul>
+   </nav>
+
+   <nav class="small-screen-nav bg-white/80 absolute top-20 left-0 z-20 w-full py-8 px-6 hidden">
+    <ul class="flex flex-col items-center w-full justify-between max-w-[1000px] mx-auto">
+        <li class=" h-14 w-full px-4 border-b"><a href="#" class=" grid place-items-center text-black w-full h-full">Home</a></li>
+        <li class=" h-14 w-full px-4 border-b"><a href="#" class=" grid place-items-center text-black w-full h-full">Leistugen</a></li>
+        <li class=" h-14 w-full px-4 border-b"><a href="#"  class=" grid place-items-center text-black w-full h-full">Uber uns</a></li>
+        <li class=" h-14 w-full px-4 border-b"><a href="#" class=" grid place-items-center text-black w-full h-full">Leistugen guwerbekunden</a></li>
+        <li class=" h-14 w-full px-4 "><a href="#" class=" grid place-items-center text-black w-full h-full">iher planer</a></li>
+    </ul>
+</nav>
+
+   <div class="hero w-full h-[600px] relative flex-flex-co">
+       <!-- change images array in js file -->
+        <div class="text-white  w-full h-full bg-black/40 grid place-items-center">
+            <h2 class="text-2xl md:text-5xl font-bold w-full text-center my-4">
+                Ihr Meisterbetrieb für Heizungsbau & Badsanierung in Augsburg
+            </h2>
+            <span class="hero-text text-4xl">
+                <!-- text fromjs file -->
+            </span>
+        </div>
+        <div class="absolute w-full bottom-5 left-0 z-10 text-black flex justify-center md:hidden">
+            <a href="tel:08214392953" class="tel flex justify-center items-center h-14 w-14 bg-white rounded-full hover:animate-bounce mx-4 text-xs md:text-sm">
+                <div class="icon mx-2">
+                     <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                         <path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z" />
+                     </svg>
+                </div>
+             </a>
+            <a href="mailto:info@waerme-wasser-wohnen.de" class="mailto flex justify-center items-center h-14 w-14 bg-white rounded-full hover:animate-bounce mx-4 text-xs md:text-sm ">
+                <div class="icon mx-2">
+                     <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                         <path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z" />
+                         <path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z" />
+                     </svg>
+                </div>
+             </a>
+        </div>
+   </div>
+
+    <section class="max-w-[1000px] text-white/80 mt-14 px-8 w-full mx-auto">
+        <p class="text-2xl my-8 text-center">Mit 15 jähriger Berufserfahrung und seit 2016 als eingetragener Meisterbetrieb rocken wir unsere Baustellen mit dem Tempo und der Kraft eines jungen Teams! Dazu der Blick für Qualität & Sauberkeit bis ins Detail und das genaue Augenmaß der alten Füchse, von denen wir gelernt haben.</p>
+        <p class="text-2xl my-8 text-center">Wir arbeiten mit größter Sorgfalt in einem ordentlichen und sauberen Umfeld.
+            Dabei legen wir großen Wert auf Ordnung – so fällt die Arbeit einem leichter und erspart viel Stress.</p>
+        <strong class="font-bold text-3xl my-14 w-full text-center  text-white">Holen Sie sich Ihre Profis ins Haus.</strong>
+        <p class="text-2xl my-8 text-center">Ihr Projekt ist unsere Herausforderung! Wir begleiten die Neugestaltung des Badezimmers oder auch des Wellness Bereichs von Anfang bis zur Fertigstellung. Eine neue effiziente Heizung – auch hier sind wir zur Stelle.</p>
+        <div class="flex flex-col-reverse w-full items-center">
+           <strong class="text-white">– für Augsburg und die Region – </strong> <img src="https://waerme-wasser-wohnen.de/wp-content/uploads/2021/05/Augsburg_wappen.svg" alt="" class="w-10 mb-4">
+        </div>
+    </section>
+
+    <section class="bg-white mt-14">
+        <div class="w-full bg-cover bg-fixed bg-center bg-no-repeat h-[300px]" style="background-image: url(https://images.unsplash.com/photo-1568236707898-a06e007d0175?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8N3x8bWVjaGFuaWNzfGVufDB8MHwwfHw%3D&auto=format&fit=crop&w=1920&q=60);">
+        </div>
+
+       <div class="flex flex-col md:flex-row justify-between max-w-[1000px] mx-auto mt-14">
+           <div class="flex mx-auto">
+                <div class="flex flex-col">
+                    <div class="flex flex-col m-4 items-center shadow bg-white w-36 rounded-lg py-4">
+                        <img src="https://waerme-wasser-wohnen.de/wp-content/uploads/2021/05/Heizung-3.png" alt="" class="w-20">
+                        <span class="w-full text-center mt-2">Wärme</span>
+                    </div>
+                    <div class="flex flex-col m-4 items-center shadow bg-white w-36 rounded-lg py-4">
+                        <img src="https://waerme-wasser-wohnen.de/wp-content/uploads/2021/05/Bad-1.png" alt="" class="w-20">
+                        <span class="w-full text-center mt-2">Wasser</span>
+                    </div>
+                </div>
+                <div class="flex flex-col">
+                    <div class="flex flex-col m-4 items-center shadow bg-white w-36 rounded-lg py-4">
+                        <img src="https://waerme-wasser-wohnen.de/wp-content/uploads/2021/05/Haustechnik-2.png" alt="" class="w-20">
+                        <span class="w-full text-center mt-2">Wohnen</span>
+                    </div>
+                    <div class="flex flex-col m-4 items-center shadow bg-white w-36 rounded-lg py-4">
+                        <img src="https://waerme-wasser-wohnen.de/wp-content/uploads/2021/05/Gewerbe-1.png" alt="" class="w-20">
+                        <span class="w-full text-center mt-2">Gewerbe</span>
+                    </div>
+                </div>
+           </div>
+            <div class="py-4">
+                <h1 class="text-2xl font-bold mb-4 px-2 text-center">Modernisierung, Wartung oder Reparatur – Ihr direkter Draht zum Experten</h1>
+                <p class="text-sm mb-2 px-2 text-center">Beratung vor Ort sowie auch gerne telefonisch. Einfach anrufen und kostenlos von uns beraten lassen – kompetent, persönlich und für Sie völlig unverbindlich. Unter Telefon 0821 / 439 929 53 sind wir für Sie da.</p>
+                    <div class="flex md:flex-col justify-around md:justify-center">
+                        <div class="text-sm font-semibold flex flex-col my-3 ">
+                            Montag – Donnerstag:
+                            <span>7.00 – 16.30 Uhr </span>
+                        </div>
+                        <div class="text-sm font-semibold flex flex-col my-3 ">
+                            Freitag:
+                        <span> 7.00 – 12.00 Uhr</span>
+                        </div>
+                    </div>
+                <div class="flex w-full my-4">
+                <button class="rounded bg-black w-40 h-14 text-white mx-auto md:mx-0">Kotakt</button>
+                </div>
+            </div>
+       </div>
+    </section>
+
+   <script src="./static/js/script.js"></script>
+</body>
+</html>
