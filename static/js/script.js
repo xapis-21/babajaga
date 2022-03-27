@@ -5,23 +5,23 @@ const nav = document.querySelector('.small-screen-nav')
 
 const slides = [
     {
-        image: 'https://images.pexels.com/photos/4489749/pexels-photo-4489749.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=1000',
+        image: './static/images/slide-image-1.jpeg',
         text: 'Slide One Text'
     },
     {
-        image: 'https://images.pexels.com/photos/279949/pexels-photo-279949.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=1000',
+        image: './static/images/slide-image-2.jpeg',
         text: 'Slide Two Text'
     },
     {
-        image: 'https://images.pexels.com/photos/4488660/pexels-photo-4488660.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=1000',
+        image: './static/images/slide-image-1.jpeg',
         text: 'Slide Three Text'
     },
     {
-        image: 'https://images.pexels.com/photos/4489702/pexels-photo-4489702.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=1000',
+        image: './static/images/slide-image-1.jpeg',
         text: 'Slide Four Text'
     },
     {
-        image: 'https://images.pexels.com/photos/3807277/pexels-photo-3807277.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=1000',
+        image: './static/images/slide-image-1.jpeg',
         text: 'Slide Five Text'
     }
 

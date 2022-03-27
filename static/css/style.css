@@ -3,7 +3,7 @@
 }
 
 .hero{
-    background-image: url('https://images.pexels.com/photos/4489749/pexels-photo-4489749.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=1000');
+    background-image: url('../images/slide-image-1.jpeg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
